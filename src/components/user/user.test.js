@@ -8,7 +8,7 @@ let container = null;
 
 beforeEach(() => {
 	container = document.createElement('div');
-	render(<User />, container);
+	document.body.appendChild(container);
 });
 
 afterEach(() => {
